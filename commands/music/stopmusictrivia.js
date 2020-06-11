@@ -17,8 +17,24 @@ module.exports = class StopMusicTriviaCommand extends Command {
       clientPermissions: ['SPEAK', 'CONNECT']
     });
   }
-   async run(message) {
-  message.author.send("IF YOU WANT TO USE THIS COMMAND THEN YOU HAVE TO BUY PRO CODES - Contact [YT]UnseenAcoustics#7878");
-  message.channel.send("Apperently this is premium, Check your Dm");
+  run(message) {
+    if (!message.guild.triviaData.isTriviaRunning)
+      return message.say('No trivia is currently running');
+
+    if (message.guild.me.voice.channel !== message.member.voice.channel) {
+      return message.say("Join the trivia's channel and try again");
+    }
+
+    if (!message.guild.triviaData.triviaScore.has(message.author.username)) {
+      return message.say(
+        'You need to participate in the trivia in order to end it'
+      );
+    }
+
+    message.guild.triviaData.triviaQueue.length = 0;
+    message.guild.triviaData.wasTriviaEndCalled = true;
+    message.guild.triviaData.triviaScore.clear();
+    message.guild.musicData.songDispatcher.end();
+    return;
   }
-}
+};

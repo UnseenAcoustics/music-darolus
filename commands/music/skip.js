@@ -25,3 +25,7 @@ module.exports = class SkipCommand extends Command {
     message.guild.musicData.songDispatcher.end();
   }
 };
+
+
+console.log("   Shuffle   |   X")
+console.log("   Skip      |   ✔")

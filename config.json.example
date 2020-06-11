@@ -1,0 +1,6 @@
+{
+  "prefix": "Bot-Prefix-Here", 
+  "token": "Enter-Token-Here",
+  "youtubeAPI": "YouTube-API-Here",
+  "geniusLyricsAPI": "GeniusLyrics-API-Here"
+}

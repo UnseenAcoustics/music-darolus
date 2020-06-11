@@ -28,3 +28,6 @@ module.exports = class LoopCommand extends Command {
     return;
   }
 };
+
+console.log("   Loop      |   ✔")
+
