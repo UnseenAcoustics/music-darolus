@@ -28,3 +28,5 @@ module.exports = class ResumeCommand extends Command {
     message.guild.musicData.songDispatcher.resume();
   }
 };
+
+console.log("   Resume    |   ✔")

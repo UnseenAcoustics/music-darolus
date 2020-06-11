@@ -1,5 +1,5 @@
 {
-  "name": "Music-Darolus",
+  "name": "master-bot",
   "version": "1.0.0",
   "description": "a discord music bot with guild , gifs and misc commands",
   "main": "index.js",
@@ -9,9 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nir Gal",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^0.22.0",
     "discord.js": "github:discordjs/discord.js",
     "discord.js-commando": "github:discordjs/Commando",
     "express": "^4.17.1",
@@ -19,7 +19,8 @@
     "iso-639-1": "^2.1.2",
     "node-opus": "^0.3.3",
     "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^2.1.5"
+    "ytdl-core": "^3.1.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

@@ -155,7 +155,8 @@ module.exports = class PlayCommand extends Command {
         .addField('Song 3', vidNameArr[2])
         .addField('Song 4', vidNameArr[3])
         .addField('Song 5', vidNameArr[4])
-        .addField('Exit', 'exit');
+        .addField('Exit', 'exit')
+        .setFooter('Made by [YT]UnseenAcoustics#7878');
       var songEmbed = await message.say({ embed });
       try {
         var response = await message.channel.awaitMessages(
@@ -303,3 +304,6 @@ module.exports = class PlayCommand extends Command {
     return duration;
   }
 };
+
+
+console.log("   Play      |   ✔")

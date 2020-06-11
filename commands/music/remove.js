@@ -35,3 +35,6 @@ module.exports = class RemoveSongCommand extends Command {
     return message.say(`Removed song number ${songNumber} from queue`);
   }
 };
+
+
+console.log("   Remove    |   ✔")

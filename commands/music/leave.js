@@ -31,3 +31,7 @@ module.exports = class LeaveCommand extends Command {
   }
 };
 //made by UnseenAcoustics
+
+console.log("Command Name | Status")
+console.log("---------------------")
+console.log("   Leave     |   ✔")

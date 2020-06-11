@@ -29,3 +29,5 @@ module.exports = class SkipAllCommand extends Command {
     return;
   }
 };
+
+console.log("   Skip All  |   ✔")

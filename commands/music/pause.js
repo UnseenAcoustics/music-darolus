@@ -28,3 +28,8 @@ module.exports = class PauseCommand extends Command {
     message.guild.musicData.songDispatcher.pause();
   }
 };
+console.log("   Lyrics    |   ✔")
+console.log("   Trivia    |   ✔")
+
+
+console.log("   Pause     |   ✔")

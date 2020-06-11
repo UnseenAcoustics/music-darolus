@@ -14,7 +14,7 @@ const listener = server.listen(process.env.PORT, function() {
   console.log(`Your app is listening on port ` + listener.address().port);
 });
 setInterval(() => {
-  http.get(`http://music-darolus.glitch.me/`); //Do for good hosting
+  http.get(`http://speckle-quartz-road.glitch.me/`); //Do for good hosting
 }, 280000);
 
 const { CommandoClient } = require('discord.js-commando');
@@ -63,7 +63,7 @@ client.registry
 
 client.once('ready', () => {
   console.log('Ready!');
-  client.user.setActivity('d!help | Music Bot');
+  client.user.setActivity('d!help | musicdarolus.tk');
 });
 
 client.login(token);

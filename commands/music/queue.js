@@ -31,3 +31,5 @@ module.exports = class QueueCommand extends Command {
     return message.say(queueEmbed);
   }
 };
+
+console.log("   Queue     |   ✔")

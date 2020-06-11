@@ -42,3 +42,6 @@ module.exports = class SkipToCommand extends Command {
     return;
   }
 };
+
+console.log("   Skip To   |   ✔")
+
