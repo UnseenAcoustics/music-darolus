@@ -6,8 +6,6 @@
 # Music Darolus
 A simple and easy to use Discord music bot delivering high quality audio.
 
-<iframe src="https://musicdarolus.tk/" name="iframe_a" height="500px" width="100%" title="Iframe Example"></iframe>
-
 ----------------------------------------------------------------
                        Music Command Group
  ----------------------------------------------------------------
