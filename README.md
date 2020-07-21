@@ -1,5 +1,10 @@
 <img src="https://www.codefactor.io/Content/badges/A.svg" alt="Repository badge with A rating"/>  [![Build status](https://ci.appveyor.com/api/projects/status/nkfe4gm0mgjl6v9n?svg=true)](https://ci.appveyor.com/project/UnseenAcoustics/music-darolus)
 
+![Badge](https://botlist.space/bot/452529813819883521/badge?property=tag&style=for-the-badge)
+![Support](https://botlist.space/bot/452529813819883521/badge?property=support&style=for-the-badge)
+![Status](https://botlist.space/bot/452529813819883521/badge?property=status&style=for-the-badge)
+![Libary](https://botlist.space/bot/452529813819883521/badge?property=library&style=for-the-badge)
+![Owner](https://botlist.space/bot/452529813819883521/badge?property=owner&style=for-the-badge)
 
 
 
